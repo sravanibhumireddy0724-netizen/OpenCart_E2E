@@ -18,7 +18,7 @@ test.skip('login page title test', async () => {
     expect(pageTitle).toBe('Account Login');
 });
 
-?
+
 
 // test('user is able to login to app test', async () => {
 //     await loginPage.doLogin(process.env.APP_USERNAME!, process.env.APP_PASSWORD!);
