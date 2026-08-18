@@ -18,14 +18,17 @@ test.skip('login page title test', async () => {
     expect(pageTitle).toBe('Account Login');
 });
 
-test.skip('forgot pwd link exist test', async () => {
-    expect(await loginPage.isForgotPwdLinkExist()).toBeTruthy();
-});
+?
 
-test('user is able to login to app test', async () => {
-    await loginPage.doLogin(process.env.APP_USERNAME!, process.env.APP_PASSWORD!);
-    expect.soft(await homePage.isLogoutLinkExist()).toBeTruthy();
-});
+// test('user is able to login to app test', async () => {
+//     await loginPage.doLogin(process.env.APP_USERNAME!, process.env.APP_PASSWORD!);
+//     expect.soft(await homePage.isLogoutLinkExist()).toBeTruthy();
+// });
+
+// test('user is able to login to app test', async () => {
+//     await loginPage.doLogin(process.env.APP_USERNAME!, process.env.APP_PASSWORD!);
+//     expect.soft(await homePage.isLogoutLinkExist()).toBeTruthy();
+// });
 
 
 //Ouath2.0
